@@ -1,0 +1,16 @@
+.card {
+    width: 100%;
+    aspect-ratio: 1; /* Đảm bảo tỉ lệ khung hình 1:1 */
+    margin: 100px auto 50px;
+
+}
+
+.card img {
+    object-fit: cover; /* Hiển thị toàn bộ hình ảnh trong khung */
+    width: 100%;
+    height: 100%;
+    box-shadow: 
+    0 10px 5px 0 rgba(0,0,0,0.16),
+    0 10px 10px 0 rgba(0,0,0,0.12);
+   
+}
